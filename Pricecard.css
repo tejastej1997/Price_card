@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1E293B;
+  font-family: poppins;
+}
+.container__inner {
+  max-width: 1542px;
+  padding: 0 51px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+@media screen and (max-width: 767px) {
+  .container__inner {
+    padding: 0 20px;
+  }
+}
+.container__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.container__heading-name {
+  color: #10B981;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container__heading-tagline {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container__card {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  max-width: 1264px;
+  width: 100%;
+}
+@media screen and (max-width: 933px) {
+  .container__card {
+    justify-content: center;
+  }
+}
+.container__card1 {
+  border: 1px solid white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid #AFAFAF;
+  background: #0F172A;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  position: relative;
+}
+.container__card1-popularbtn {
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.21px;
+  text-transform: capitalize;
+  padding: 5px 20px;
+  border-radius: 100px;
+  border: none;
+  background-color: #10B981;
+}
+.container__card1-price {
+  display: flex;
+  align-items: center;
+}
+.container__card1-symbol {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 65px;
+}
+.container__card1-value {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container__card1-duration {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.container__card1-btn {
+  width: 100%;
+  padding: 20px 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background: #10B981;
+  border: none;
+  margin-top: auto;
+}
+.container__card1-btn:hover,
+.container__card1-btn:focus,
+.container__card1-btn.sidearm-hover {
+  background-color: #FFF;
+  color: #10B981;
+  transition: 0.2s all;
+  box-shadow: 0 0 1px white inset;
+  cursor: pointer;
+}
+.container__card1-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container__card1-plan-name {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container__card1-plan-details {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  height: 42px;
+}
+.container__card1__opt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container__card1-options {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.container__card1-options-info {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  flex: 1 0 0;
+}
